@@ -8,7 +8,11 @@
 }
 
 body {
+	margin-bottom: ;
+}
 
+.row {
+	margin-left: 15%;
 }
 
 .row > .column {
@@ -129,7 +133,7 @@ img {
 
 .demo {
   opacity: 0.6;
-  margin-bottom: 10em;
+  padding-right: 10em;
 }
 
 
