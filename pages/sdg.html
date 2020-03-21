@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="../js/app.js"></script>
+  <title>UNTV Studio Backgrounds</title>
+</head>
+<body>
+  <h2 style="text-align:center">UNTV Studio Backgrounds</h2>
+ <ul>
+  <li><a href="../pages/unlogo.html">UN Logo</a></li>
+  <li><a href="../pages/unhq.html">UNHQ</a></li>
+  <li><a href="../pages/sdg.html">SDG's</a></li>
+ </ul>
+  <div class="row">
+      <div class="column">
+    <img src="../img/sdg/wheel.png" style="width:90%; margin: 10% -10%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+   <div class="column">
+    <img src="../img/sdg/logowith.png" style="width:120%; margin: 0 -8%;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/sdg/logowithout.png" style="width:120%; margin: 30% 15%;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/sdg/bannerwith.png" style="width:150%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/sdg/bannerwithout.png" style="width:150%; margin: -2% 60%;" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/sdg/wheel.png" style="margin-left: 30%; width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/sdg/logowith.png" style="margin-left: 30%; width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/sdg/logowithout.png" style="margin-left: 30%; width:50%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/sdg/bannerwith.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/sdg/bannerwithout.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="../img/sdg/wheel.png" style="width:100%" onclick="currentSlide(1)" alt="id# 1037">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/sdg/logowith.png" style="width:100%" onclick="currentSlide(2)" alt="id# 105">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/sdg/logowithout.png" style="width:100%" onclick="currentSlide(3)" alt="id# 108">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/sdg/bannerwith.png" style="width:100%" onclick="currentSlide(4)" alt="id# 116">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/sdg/bannerwithout.png" style="width:100%" onclick="currentSlide(5)" alt="id# 117">
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
