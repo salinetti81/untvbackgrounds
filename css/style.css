@@ -64,7 +64,7 @@ li a:hover {
 .column {
   float: left;
   width: 25%;
-
+  /*margin: 1px;*/
 }
 
 /* The Modal (background) */
@@ -72,7 +72,7 @@ li a:hover {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 30px;
   left: 0;
   top: 0;
   width: 100%;
