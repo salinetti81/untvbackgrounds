@@ -1,3 +1,4 @@
+console.log ("l;skdafj")
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }

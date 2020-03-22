@@ -15,7 +15,56 @@
   <li><a href="../pages/unhq.html">UNHQ</a></li>
   <li><a href="../pages/sdg.html">SDG's</a></li>
  </ul>
+ <div class="row">
+      <div class="column">
+    <img src="../img/unhq/unhq1.jpg" style="width: 100%;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+   <div class="column">
+    <img src="../img/unhq/unhq2.jpg" style="width: 100%;" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../img/unhq/unhq3.jpg" style="width:100%;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
 
+  <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/unhq/unhq1.jpg" style="width: 100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/unhq/unhq2.jpg" style="width: 100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="../img/unhq/unhq3.jpg" style="width: 100%;">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="../img/unhq/unhq1.jpg" style="width:100%; margin-left: 0 10% 0 20%;" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/unhq/unhq2.jpg" style="width:100%;" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../img/unhq/unhq3.jpg" style="width:100%;" onclick="currentSlide(3)" alt="">
+    </div>
+    
+  </div>
+</div>
+</div>
 
 </body>
 </html>
