@@ -47,6 +47,10 @@ li a:hover {
   color: black;
 }
 
+.about p {
+  margin: 2% 15%;
+}
+
 .row {
 	margin-left: 15%;
 }
