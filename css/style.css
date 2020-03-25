@@ -47,6 +47,10 @@ li a:hover {
   color: black;
 }
 
+footer {
+  margin-top: 100em;
+}
+
 .about p {
   margin: 2% 16%;
   width: 65.5%;
